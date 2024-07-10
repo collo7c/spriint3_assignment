@@ -28,12 +28,13 @@
             <div class="usertitle">
                 Hello <?php print $_SESSION["control"]["fullname"];?>
             </div>
-        </div>   
+          
             <a href="processes/user_processes.php?signout" >signout </a>
             <?php
-                 
+            ?>    
                      
-    </div>       
+        </div>    
+    </div> 
     <div class="footer">
         Copyright &copy; BBIT 2024
     </div>

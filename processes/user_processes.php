@@ -41,10 +41,10 @@
         }
 
         //Signin process
-        if(isset($_POST("signin"))){
+        if(isset($_POST["signin"])){
             //variable declaration
-            $username=mysqli_real_escape_string($dbConn, $_POST["username"]);
-            $password=mysqli_real_escape_string($dbConn, $_POST["password"]);
+            $entered_username=mysqli_real_escape_string($dbConn, $_POST["username"]);
+            $entered_password=mysqli_real_escape_string($dbConn, $_POST["password"]);
         }
 
         //verify is the entered username matches any record

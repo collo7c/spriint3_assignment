@@ -1,7 +1,13 @@
 body{
-    background-image: url(galleria.jpg);
+    margin: 0px;
+    padding: 0px;
+}
+.background
+{
+    width: 100px;
+    height: 100vh;
+    background-image: url(CoffeeBrew.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
 }
